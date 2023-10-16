@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 700px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #f1356d;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar button {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+/* blog previews / list */
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+.blog-preview a {
+  text-decoration: none;
+}
+/* blog details page */
+.blog-details h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+.blog-details div {
+  margin: 20px 0;
+}
+.blog-details button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+/* create new blog form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.create input,
+.create textarea,
+.create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Commenting secion */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.comments-section {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.comment-input {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.comment-input input {
+  flex: 1;
+  padding: 10px;
+}
+
+.comment-input button {
+  padding: 10px 20px;
+  margin-left: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+ul li span {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.comments-section button {
+  border: 1px solid #f1356d;
+  color: red;
+  background-color: white;
+}
+
+/* login */
+
+.login_container {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login_form_container {
+  width: 900px;
+  height: 500px;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
+    0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+}
+
+.left {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.form_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form_container h1 {
+  font-size: 40px;
+  margin-top: 0;
+}
+
+.input {
+  outline: none;
+  border: none;
+  width: 370px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #edf5f3;
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.error_msg {
+  width: 370px;
+  padding: 15px;
+  margin: 5px 0;
+  font-size: 14px;
+  background-color: #f34646;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1356d;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.right h1 {
+  margin-top: 0;
+  color: white;
+  font-size: 40px;
+  align-self: center;
+}
+
+.white_btn,
+.green_btn {
+  border: none;
+  outline: none;
+  padding: 12px 0;
+  background-color: white;
+  border-radius: 20px;
+  width: 180px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.green_btn {
+  background-color: #f1356d;
+  color: white;
+  margin: 10px;
+}
