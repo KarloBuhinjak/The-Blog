@@ -1,10 +1,10 @@
 import Navbar from "./components/Navbar";
-import Signup from "./Signup";
-import Login from "./Login";
-import Home from "./components/Home";
+import Signup from "./pages/Signup/index";
+import Login from "./pages/Login/index";
+import Home from "./pages/Home";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Create from "./pages/Create";
-import AddAuthor from "./AddAuthor";
+import AddAuthor from "./pages/AddAuthor";
 import BlogDetails from "./pages/BlogDetails";
 import NotFound from "./pages/NotFound";
 
